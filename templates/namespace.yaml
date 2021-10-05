@@ -1,0 +1,10 @@
+{{- range $k, $v := $.Values.patches }}
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: {{ $v.toFieldPath }}
+  labels:
+    name: {{ $v.toFieldPath }}
+{{- end }}
+  

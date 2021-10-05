@@ -1,0 +1,6 @@
+patches:
+  - fromFieldPath: "miau"
+    toFieldPath: "testee"
+  - fromFieldPath: "oxi"
+    toFieldPath: "testea"
+
